@@ -1,0 +1,141 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #ffffff;
+	color: grey;
+	font-size: 24px;
+	font-family: "Goudy Old Style", serif;
+}
+
+.header h1 {
+	font-family: "Book-Antigua", serif;
+	text-align: center;
+}
+
+.hero {
+	background-image: url("http://www.maisondmemoire.com/wp-content/uploads/2015/08/Maison-Cottage-Autumn-2-breakfast.jpg");
+	height: 500px;
+	background-size: cover;
+}
+
+
+.hero p  {
+	font-size: 40px;
+	font-weight: bold;
+	font-family: Papyrus;
+	font-style: italic;
+	color:#ffffff;
+	padding: 20px
+	
+	}
+
+#story {
+	
+	padding-top: 20px;
+	margin-left: 100px;
+	margin-top: 20px;
+	margin-right: 100px;
+	
+
+}
+
+.centerfold {
+	height: 100%;
+	padding: 20px 30px 30px 35px;
+	background-color: #ffffff;
+}
+
+
+.reservation {
+	width: 100%;
+	background-color: #fff2e6;
+	padding: 10px 10px;
+	color: #000;
+
+}
+
+.reservation h2 {
+	text-align: center;
+	font-size: 30pt;
+}
+
+.centerfoldheader h2{
+	text-align: center;
+	font-size: 30pt;
+}
+.colcontainer {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+
+.column {
+	float: left;
+	width: 320px;
+	text-align: left;
+	padding: 10px;
+}
+
+.column h3 {
+	text-align: left;
+	font-family: "PT Serif", serif;
+	
+	      }
+
+.reservelink p {
+	
+	text-align:center;
+	
+	font-size: 32px;
+	
+	color: #990000;
+}
+	
+
+}
+#reviews {
+	
+	font-style: italic;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+}
+
+nav {
+	
+	
+	text-align: center;
+		
+}
+
+
+
+nav a {
+	margin: 15px;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+
+}
+
+footer {
+	margin: auto;
+	background-color: #660000;
+	height: 275px;
+	padding: 30px;
+	color: white;
+	font-style: italic;
+}
