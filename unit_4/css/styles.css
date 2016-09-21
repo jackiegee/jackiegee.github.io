@@ -1,0 +1,194 @@
+
+
+@import url("https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy");
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin");
+@import url("https://fonts.googleapis.com/css?family=Oxygen");
+
+
+
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	
+	
+	background-color: #fff;
+    font-size: 20px; /* 20px=1em */
+	font-family: 'Sorts Mill Goudy', serif;
+	
+}
+
+header h1{
+	padding-top: 1em;
+}
+
+
+p {
+	color: #222222;
+	font-size: 1em;
+	font-family: 'Libre Franklin', sans-serif;
+    margin: 0em auto 1em;
+    line-height: 1.5em;
+     
+   
+
+}
+
+.hero {
+	background-image: url("http://www.villaguru.com/wp-content/gallery/fregate-private-island-private-islands/fregate-island-private-villa-dining.jpg");
+	height: 600px;
+	background-size: cover;
+	background-position: center center;
+	
+}
+
+
+.hero p  {
+	font-size: 0.5em;
+	font-weight: normal;
+	font-family: 'Sorts Mill Goudy', serif;
+	font-style: italic;
+	color:#fff;
+	padding-top: 25px;
+	padding-left: 30px;
+	
+	}
+
+.story {
+	
+	width: 50em;
+	margin: 2em auto;
+	
+}
+
+.story ul {
+    
+    margin-left: 2em;
+}
+
+.reviews {
+	
+	font-style: italic;
+	width: 50em;
+	margin: 2em auto;
+	
+	
+}
+
+.reviews h2{
+	text-align: center;
+	font-size: 30px;
+}
+
+.memories {
+	
+	background-color: #fff2e6;
+	padding: 1em;
+	color: #000;
+
+}
+
+.memories h2 {
+	text-align: center;
+	font-size: 2em;
+}
+
+
+.colcontainer {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+
+.column {
+	float: left;
+	width: 320px;
+	text-align: left;
+	padding: 0.5em;
+}
+
+.column h3 {
+	text-align: center;
+	font-weight: bolder;
+	letter-spacing: 3px;
+	font-family: "PT Serif", serif;
+
+	
+	      }
+
+.reservelink {
+	
+	
+	padding: 0.5em 0.5em;
+	text-align:center;
+	font-size: 1.5em;
+	color: #990000;
+	height: 110px;
+	line-height: 1.2em;
+	background-color:#e8762d;
+	width: 100%;
+	margin: auto;
+}
+	
+
+nav {
+	
+	text-align: center;
+	font-size: 20px;
+	padding: 25px 25px;
+	letter-spacing: 2px;
+	
+}
+
+
+nav a {
+	margin: 0.8em;
+	font-family: 'Oxygen', sans-serif;
+	color: #990000;
+    
+}
+
+
+a {
+	color: #990000;
+	text-decoration: none;
+	
+}
+
+header {
+	width: 100%;
+	text-align: center;
+
+}
+
+footer {
+	
+	background-color: #660000;
+	padding: 1em;
+	height: 275px;
+	
+	}
+
+footer p {
+    color: #fff;
+	font-style: italic;	
+	padding-left: 30px;
+}
+
+footer h2  {
+	font-weight: bolder;
+	padding-left: 30px;
+	color: #fff;
+    
+
+}
+
+aside {
+	text-align: center;
+	color: #fff;
+}
