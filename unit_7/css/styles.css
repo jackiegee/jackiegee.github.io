@@ -1,0 +1,270 @@
+
+
+@import url("https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy");
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin");
+@import url("https://fonts.googleapis.com/css?family=Oxygen");
+@import url("https://fonts.googleapis.com/css?family=Gentium+Basic");
+
+
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	
+	
+	background-color: #fff;
+    font-size: 20px; /* 20px=1em */
+	font-family: 'Sorts Mill Goudy', serif;
+}
+	
+
+#container {
+	background-color: 
+}
+
+
+header {
+	background-color: pink;
+}
+
+
+h1{
+	font-size: 2.5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+	font-family: "Gentium Basic", serif;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+p {
+	color: #222222;
+	font-size: 1em;
+	font-family: 'Libre Franklin', sans-serif;
+    margin: auto;
+    line-height: 1.5em;
+    padding-bottom: .8em;
+   
+  }
+
+nav {
+	
+	width: 100%;
+	padding: 1em;
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+	display: inline-block;	
+	background-color: yellow;
+	}
+
+/*LoVe HAte*/
+
+nav a {
+	
+	letter-spacing: 0.2em;
+	padding: 0 0.5em;
+	/*background-color: orange;*/
+		
+}
+
+nav a: visited {
+	
+	
+}
+
+nav a:hover {
+	
+	border-bottom: 2px solid orange;
+}
+  
+nav a: active {
+	
+}    
+
+#hero {
+
+	background-image: url("../images/villa2.jpg");
+	height: 600px;
+	background-size: cover;
+	background-position: center center;
+	clear: both;
+}
+
+
+#hero p  {
+	text-align: left;
+	font-size: 2em;
+	font-weight: normal;
+	font-family: 'Sorts Mill Goudy', serif;
+	font-style: italic;
+	color:#fff;
+	padding-top: 25px;
+	padding-left: 30px;
+	
+	}
+
+#wrappertop {
+	
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	}
+
+#story {
+	
+	padding: 2em;
+	float: left;
+	width: 60%;
+	
+		}
+
+#reviews {
+	
+	padding: 2em;
+	width: 40%;
+	float: right;
+
+}
+
+#reviews p {
+	font-style: italic;
+}
+
+
+cite {
+
+	line-height: 2.5em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#features {
+
+	clear: left;
+	padding-left: 2em;
+	
+
+	}
+
+#features ul {
+
+	list-style-type: square;
+	padding-left: 2em;
+}
+
+#features li { 
+    
+    
+    font-size: 1.2em;
+
+}
+
+
+.online {
+	
+	width: 30%;
+	display: block;
+	margin: 1em auto;
+	background-color:#f49842;
+	padding: 0.5em;
+	text-align: center;
+	clear: both;
+	font-weight: 600;
+	font-size: 1.5em;
+	
+}
+
+#memories {
+	
+	background-color: #fff2e6;
+	padding: 1em;
+	color: #000;
+
+}
+
+#memories h2 {
+	text-align: center;
+	font-size: 2em;
+}
+
+
+#colcontainer {
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+	text-align: left;
+	padding: 0.5em 1em;
+}
+
+.column h3 {
+	text-align: center;
+	padding-bottom: 1em;
+	font-weight: bolder;
+	font-size: 1.5em;
+	letter-spacing: 0.1em;
+	font-family: "PT Serif", serif;
+	
+}
+.column img {
+	width:100%;
+}
+
+a {
+	color: #990000;
+	text-decoration: none;
+	
+}
+
+footer {
+	
+	background-color: #660000;
+	color: #fff;
+	padding: 2em;
+	
+	}
+
+footer p {
+    
+	font-style: italic;
+	color: #fff;
+	
+	}
+
+footer h3  {
+	font-weight: bolder;
+	font-size: 1.5em;
+	
+}    
+
+footer a {
+
+color: #f49842;
+}
+
+#copy {
+	text-align: center;
+	color: #fff;
+}
