@@ -58,7 +58,7 @@ nav a {
 }
 #hero {
 
-	background-image: url("../images/loungechairs.jpg");
+	background-image: url("../images/Loungechairs.jpg");
 	height: 600px;
 	background-size: cover;
 	background-position: center center;
@@ -256,13 +256,17 @@ body {
 }
 .column p {
 	padding-top: 0.7em;
+	width: 75%;
+}
+.column img  {
+	width: 75%;
 }
 }
 @media only screen and (max-width: 625px) {
 footer{
-	font-size: 0.9em;
+	font-size: 0.9em; 
 	text-align: center;
-	padding: 0.8em;
+	padding: 1.2em;
 }
 }
 @media only screen and (max-width: 598px) {
@@ -277,6 +281,7 @@ nav a {
 	width: 100%;
 	text-align: center;
 	padding: 0.5em;
+	font-size: 1.2em;
 }
 }
 @media only screen and (max-width: 452px) {
