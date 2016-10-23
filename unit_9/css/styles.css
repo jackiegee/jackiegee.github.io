@@ -21,9 +21,9 @@ body {
 }
 
 h1{
-	font-size: 2.5em;
+	font-size: 2em;
 	padding-top: 0.5em;
-	padding-bottom: 0.5em;
+	padding-bottom: 0;
 	text-align: center;
 	font-family: "Gentium Basic", serif;
 }
@@ -42,6 +42,9 @@ p {
     line-height: 1.5em;
     padding-bottom: .8em;
    }
+input {
+	display: none;
+}
 nav {
 	float:left;
 	padding: 1em;
@@ -54,9 +57,19 @@ nav {
 
 nav a {
 	letter-spacing: 0.2em;
-	padding: 0 0.7em;
+	padding: 0.5em 1em;
+	}
+label {
+	float:left;
+	padding: 1em;
+	width: 100%;
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 0.8em;
+	font-weight: 400;
+	display: none;
 }
-#hero {
+.hero {
 
 	background-image: url("../images/Loungechairs.jpg");
 	height: 600px;
@@ -68,7 +81,7 @@ nav a {
 #hero h2 {
 	color: #fff;
 	font-style:italic;
-	font-size: 1.6em;
+	font-size: 1.8em;
 	font-weight: normal
 	padding-top: 1em;
 	margin-left: 0.8em;
@@ -152,11 +165,11 @@ cite {
 
 #memories h2 {
 	text-align: center;
-	font-size: 2em;
+	font-size: 1.7em;
 }
 
 
-#colcontainer {
+.colcontainer {
 	max-width: 1200px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -174,7 +187,7 @@ cite {
 	text-align: center;
 	padding-bottom: 1em;
 	font-weight: bolder;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	letter-spacing: 0.1em;
 	font-family: "PT Serif", serif;
 	
@@ -245,6 +258,11 @@ body h2 {
 	font-size: 1.5em;
 }
 }
+@media only screen and (max-width: 800px){
+nav a{
+	padding: 1em 1.2em;
+}
+}
 @media only screen and (max-width: 775px) {
 body {
 	font-size: 16px;
@@ -256,15 +274,44 @@ body {
 }
 .column p {
 	padding-top: 0.7em;
-	width: 75%;
+	width: 100%;
 }
 .column img  {
-	width: 75%;
+	width: 100%;
+}
+}
+@media only screen and (max-width: 635px){
+label {
+	display: block;
+	padding-bottom: 
+	
+	font-weight: 500;
+	letter-spacing: 0.5em;
+	background-color: #660000;
+	color: #fff;
+}
+nav a {
+	display: block;
+	float: none;
+	width: 100%;
+	text-align: center;
+	padding: 0.8em;
+	font-size: 1.2em;
+	font-weight: 575;
+}
+nav {
+	display: none;
+}
+#toggle:checked + nav {
+	display: block;
+}
+body h1 {
+	padding-bottom: 0.8em;
 }
 }
 @media only screen and (max-width: 625px) {
 footer{
-	font-size: 0.9em; 
+	font-size: 1em; 
 	text-align: center;
 	padding: 1.2em;
 }
@@ -278,20 +325,12 @@ footer h3 {
 }
 }
 @media only screen and (max-width: 577px) {
-nav a {
-	display: block;
-	float: none;
-	width: 100%;
-	text-align: center;
-	padding: 0.5em;
-	font-size: 1.2em;
-	font-weight: 600;
-}
+
 #hero h2 {
 	font-size: 1.3em;
 }
 footer {
-	height: 150px;
+	height: 160px;
 }
 }
 @media only screen and (max-width: 530px) {

@@ -1,0 +1,15 @@
+
+
+.villas {
+	width: 100%;
+	margin: 2em;
+	padding: 0.5em;
+}
+#hero {
+
+	background-image: url("../images/accom_hero.jpg");
+	height: 600px;
+	background-size: cover;
+	background-position: center center;
+	clear: both;
+}
