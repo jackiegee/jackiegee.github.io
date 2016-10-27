@@ -1,0 +1,87 @@
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+#mainwrapper {
+	width: 100%;
+
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.rate {
+	display: block;
+	float: right;
+	font-size: 0.7em;
+	max-width: 270px;
+	margin-top: 10px
+	margin-right:10px;
+	padding: 0.8em;
+	text-align: left;
+	font-weight: 400;
+	background-color: rgba(255, 165, 0, 0.85); 
+}
+
+.rate h3 {
+	font-size: 1.8em;
+	font-weight: 600;
+}
+
+.bold {
+		font-weight: bold;
+}
+.content {
+	display: block;
+	margin: 0 auto;
+	font-weight: 700;
+	text-align: center;
+	background-color: #fff;
+	height: 100px;
+	
+}
+#villas {
+	background-image: url("../images/accom1hero.jpg");
+	height: 600px;
+	background-size: cover;
+	background-position: center center;
+	clear: both;
+	
+}
+#villas2 {
+	background-image: url("../images/accom2hero.jpg");
+	height: 600px;
+	background-size: cover;
+	background-position: center center;
+	clear: both;
+}
+#villas3 {
+	background-image: url("../images/accom3hero.jpg");
+	height: 600px;
+	background-size: cover;
+	background-position: center center;
+	clear: both;
+}
+
+.gallery {
+	width: 100%;
+
+}
+.gallery img {
+	width: 25%; 
+	float:left;
+	display: block;
+	padding: 20px 10px;
+}
+hr {
+	width: 2px;
+	
+}

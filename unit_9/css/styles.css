@@ -16,14 +16,11 @@ body {
     font-size: 20px; /* 20px=1em */
 	font-family: 'Sorts Mill Goudy', serif;
 }
-#container {
-	background-color: 
-}
 
 h1{
 	font-size: 2em;
 	padding-top: 0.5em;
-	padding-bottom: 0;
+	padding-bottom: 0.2em;
 	text-align: center;
 	font-family: "Gentium Basic", serif;
 }
@@ -52,13 +49,31 @@ nav {
 	text-align: center;
 	font-family: 'Oxygen', sans-serif;
 	font-size: 0.8em;
-	font-weight: 400;
+	font-weight: 600;
 	}
 
 nav a {
 	letter-spacing: 0.2em;
 	padding: 0.5em 1em;
 	}
+
+nav a:link {
+	color: #660000;
+}
+
+nav a:visited {
+	color: #660000;
+}
+
+nav a:hover {
+	color: green;
+}
+
+nav a.active {
+	color: #f47216;
+	font-weight: 650;
+	
+}
 label {
 	float:left;
 	padding: 1em;
@@ -78,11 +93,11 @@ label {
 	clear: both;
 }
 
-#hero h2 {
+.hero h2 {
 	color: #fff;
 	font-style:italic;
 	font-size: 1.8em;
-	font-weight: normal
+	font-weight: normal;
 	padding-top: 1em;
 	margin-left: 0.8em;
 	}
@@ -128,13 +143,11 @@ cite {
 }
 
 #features {
-
 	clear: left;
 	padding-left: 2em;
 }
 
 #features ul {
-
 	list-style-type: square;
 	padding-left: 2em;
 }
@@ -208,10 +221,11 @@ footer {
 	color: #fff;
 	padding: 2em;
 }
-
-footer p {
+ 
+ footer p {
     font-style: italic;
 	color: #fff;
+	line-height: 1.2em;
 	}
 footer h3  {
 	font-weight: bolder;

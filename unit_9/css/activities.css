@@ -1,0 +1,53 @@
+#hero {
+
+	background-image: url("../images/accom_hero.jpg");
+	height: 600px;
+	background-size: cover;
+	background-position: center center;
+	clear: both;
+}
+
+#hero h2 {
+	color: #fff;
+	font-style:italic;
+	font-size: 1.8em;
+	font-weight: normal;
+	padding-top: 1em;
+	margin-left: 0.8em;
+
+}
+.content {
+	margin: 1em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+figcaption {
+	text-align: center;
+	font-weight: 600;
+	padding: 1em auto;
+}
+.explore {
+	width: 75%;
+	margin: 1em auto;
+	padding: 1.5em;
+	
+}
+.explore img {
+	display: block;
+	width: 80%;
+	margin: 5px auto;
+	padding: 5px 0;
+	
+}
+li {
+	list-style: disc;
+	margin-left: 1em;
+}
